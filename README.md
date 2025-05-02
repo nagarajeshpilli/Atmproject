@@ -29,35 +29,11 @@ STEP 3 :
     }
 * Withdraw Amount: Withdraw a specific amount from your account (if sufficient balance is 
   available). On this we can implement if else method
-  if(withdrawAmount%500==0){
-            if(withdrawAmount<=atm.getBalance()){
-                System.out.println("collect  tthe cash"+withdrawAmount);
-                atm.setBalance(atm.getBalance()-withdrawAmount);
-                ministmt.put(withdrawAmount,"amount withdrawn");
 
-                viewBalance();
-            }
-            else{
-                System.out.println("insufficent balance");
-            }
-        }
-        else{
-            System.out.println("enter the amount in terms of 500");
-        }
-    }
+
 * Deposit Amount: Deposit money into your account.
-  public void depositAmount(double depositAmount) {
-        System.out.println("depositedAmount is:" +depositAmount);
-        atm.setBalance(atm.getBalance()+depositAmount);
-        ministmt.put(depositAmount,"deposited succesfully");
-        viewBalance();
-    }
 * View Mini Statement: Display a short history of recent transactions (deposits and withdrawals).
-  public void viewMinistatement() {
-       Set<Double> set=ministmt.keySet();
-       for(Double d:set){
-        System.out.println(d+"="+ministmt.get(d));
-       }
+ 
 STEP 4 : 
 💳 USER INTERFACE (Java) :
 * we can create main class method .
