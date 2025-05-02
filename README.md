@@ -9,7 +9,7 @@ STEP 1:
 * In this case we doesn't use the parameterized constructor.
 * They can use with setters and getters.
 * later we can use genterate a toString method
-
+* If you want a CODE in my files go through the Atm.java
 
 STEP 2 :
 💳 ATM INTERFACE(Java)
@@ -18,6 +18,7 @@ STEP 2 :
 * make them on public void viewbalance();
 * And withdrawAmount , depositAmount, view miniStatement will be declared
 * These are all are abstarct methods then we provide a body
+*  If you want a CODE in my files go through the AtmInterface.java
 
 STEP 3 :
 💳 ATM OPERATION(java)
@@ -28,6 +29,7 @@ STEP 3 :
   available). On this we can implement if else method
 * Deposit Amount: Deposit money into your account.
 * View Mini Statement: Display a short history of recent transactions (deposits and withdrawals).
+*  If you want a CODE in my files go through the Atmoperation.java
 
  
 
@@ -38,6 +40,7 @@ STEP 4 :
 * In the Interface the ATM have a corrected ATM NUMBER and ATM PIN .We should give a proper ATM NUMBER /ATM PIN . Otherwise it leads to an INCORRECT PIN / ATM NUMBER
 * If the input statement is correct then we should implent an if and if else method we should initialized
 * we should intialized the while loop while the condition is true the code will executed . otherwise it is INCORRECTED.
+*  If you want a CODE in my files go through the UserInterface.java
          
 
 
